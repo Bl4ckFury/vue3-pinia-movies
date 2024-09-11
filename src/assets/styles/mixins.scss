@@ -1,0 +1,65 @@
+@mixin btn-white {
+  color: $red;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: $white;
+}
+
+@mixin btn-watched {
+  height: 30px;
+  width: 150px;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  border: 1px solid $white;
+  background-color: transparent;
+}
+
+@mixin btn-red {
+  color: $white;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: $red;
+  transition: all 0.2s ease-in-out;
+  &.hover {
+    transform: scale(1.07);
+  }
+}
+
+@mixin btn-search {
+  color: $white;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: $red;
+  transition: all 0.2s ease-in-out;
+  &.hover {
+    transform: scale(1.07);
+  }
+}
+
+@mixin btn-favorite {
+  color: $white;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: $red;
+  transition: all 0.2s ease-in-out;
+  &.hover {
+    transform: scale(1.07);
+  }
+}
